@@ -60,11 +60,11 @@ Now you have to setup the script to run on system boot:
 
 2. On the context menu, click on "**Add Command**"
    
-   ![](/home/neute/Code/Python/budgie-window-preview-custom-shortcut/.img/step2.png)
+   ![](./.img/step2.png)
 
 3. On the dialog box enter the required fields, the *Title* and the *Name* can be watherever you want, only the *Command* field is important, fill it accordingly
    
-   ![](/home/neute/Code/Python/budgie-window-preview-custom-shortcut/.img/step3.png)
+   ![](./.img/step3.png)
    
    E.g: on my computer it is set like this: `python ~/Code/Python/budgie-window-preview-custom-shortcut -n`, just set the correct location of the script wherever you've saved it.
 
@@ -81,7 +81,5 @@ Now you have to setup the script to run on system boot:
 * `-n`, Enable toasty notification on startup
 
 > If you use the `-d`flag the trigger files will be stored on the folder you defined, if the folder don't exists the fallback dir is `~/.triggers-budgie`
-
-
 
 I think that's it, feel free to reach out if you need anything!
