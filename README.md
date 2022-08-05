@@ -56,7 +56,7 @@ chmod +x budgie-window-preview-shortcut-deamon.py
 Now you have to setup the script to run on system boot:
 
 1. Using `budgie-desktop-settings`  go to **Autostart**, then, click on the **+** (Plus) sign
-    ![](/home/neute/Code/Python/budgie-window-preview-custom-shortcut/.img/step1.png)
+    ![](./.img/step1.png)
 
 2. On the context menu, click on "**Add Command**"
    
