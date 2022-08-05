@@ -28,7 +28,7 @@ TRIGGERS = {"next":f"{USER}_nexttrigger",
 # Parsing the arguments that the user passes to the script.
 parser = argparse.ArgumentParser()
 parser.add_argument("-d", help="Set custom location for the 'triggers' directory")
-parser.add_argument("-n", action="store_true", help="Enable toasty notification on startup")
+parser.add_argument("-n", action="store_true", help="Enable toast notification on startup")
 args = parser.parse_args()
 
 # Notify:
